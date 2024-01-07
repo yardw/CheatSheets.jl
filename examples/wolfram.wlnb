@@ -1,0 +1,30 @@
+{
+ "cells": [
+  {
+   "kind": 1,
+   "value": "# 基本操作\r\n## 自由格式文本\r\n- `ctrl+=` to use wolfram alpha interpreter\r\n## ",
+   "languageId": "markdown",
+   "outputs": [],
+   "metadata": {},
+   "executionSummary": {}
+  },
+  {
+   "kind": 1,
+   "value": "# 算符\r\n## Replace:\r\n-  `/.`    Replace\r\n-  `//.`   ReplaceAll\r\n\r\n## Call:\r\n-  `@`     Prefix\r\n-  `@@`    Apply\r\n-  `@@@ `  Apply\r\n-  `/@`    Map\r\n-  `//@ `  MapAll\r\n-  `// `   Postfix\r\n-  `~`     Infix\r\n-  `@*`    Composition\r\n-  `/* `   RightComposition\r\n\r\n## Comparison:\r\n-  `>  `   Greater\r\n-  `<  `   Less\r\n-  `>= `   GreaterEqual\r\n-  `<= `   LessEqual\r\n-  `== `   Equal\r\n-  `!= `   Unequal\r\n-  `===`   SameQ\r\n-  `=!=`   UnsameQ\r\n\r\n## Logical:\r\n-  `! `    Not\r\n-  `||`    Or\r\n-  `&&`    And\r\n\r\n## Assignment:\r\n-  `=  `   Set\r\n-  `:= `   SetDelayed\r\n-  `^= `   UpSet\r\n-  `^:=`   UpSetDelayed\r\n-  `/: `   TagSet (TagUnset, TagSetDelayed)\r\n-  `=. `   Unset\r\n-  `+= `   AddTo\r\n-  `-= `   SubtractFrom\r\n-  `*= `   TimesBy\r\n-  `/= `   DivideBy\r\n\r\n## Rule:\r\n-  `-> `   Rule\r\n-  `:> `   RuleDelayed\r\n-  `<->`   TwoWayRule\r\n\r\n## Condition:\r\n-  `/;`    Condition\r\n\r\n## Repeat:\r\n-  `.. `   Repeated\r\n-  `...`   RepeatedNull\r\n\r\n## Arithmetic:\r\n-  `+ `    Plus\r\n-  `- `    Minus, Subtract\r\n-  `* `    Multiply\r\n-  `/ `    Devide\r\n-  `^ `    Power\r\n-  `. `    Dot\r\n-  `! `    Factorial\r\n-  `!!`    Factorial2\r\n-  `' `    Derivative\r\n-  `**`    NonCommutativeMultiply\r\n-  `++`    Increment, PreIncrement\r\n-  `--`    Decrement, PreDecrement\r\n\r\n## Flow:\r\n-  `<< `   Get\r\n-  `>> `   Put\r\n-  `>>>`   PutAppend\r\n\r\n## String:\r\n-  `<>`    StringJoin\r\n-  `~~`    StringExpression\r\n-  `| `    Alternatives\r\n\r\n## Span:\r\n-  `;;`    Span\r\n\r\n## Compound:\r\n-  `;`     CompoundExpression\r\n\r\n## Function:\r\n-  `&`     Function\r\n\r\n## Definition:\r\n-  `?`     Definition\r\n-  `??`    FullDefinition",
+   "languageId": "markdown",
+   "mime": "text/markdown",
+   "outputs": [],
+   "metadata": {},
+   "executionSummary": {}
+  },
+  {
+   "kind": 1,
+   "value": "# Functions\r\n- Functions have no difference with variables in Wolfram Language. But we should color them more like functions in a syntax definition. Here are some basic way to identify a function:\r\n\r\n    - an variable placed before `(@{1,3}|//?@|[/@]\\*)`\r\n    - an variable placed after `(//|[@/]\\*)`\r\n    - an variable placed on an even order in some expressions joined with some ~\r\n    - an variable placed after a PatternTest (which was introduced in the next part)",
+   "languageId": "markdown",
+   "mime": "text/markdown",
+   "outputs": [],
+   "metadata": {},
+   "executionSummary": {}
+  }
+ ]
+}
