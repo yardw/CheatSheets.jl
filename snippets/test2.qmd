@@ -1,0 +1,72 @@
+---
+title: "Presentation"
+author: "王"
+subtitle: "副标题"
+date: "today"
+abstract: "摘要"
+lang: zh
+institute: TDLI
+mainfont: "LXGW WenKai Mono"
+fontsize: "28"
+format: 
+  beamer: 
+    aspectratio: 169
+    incremental: true
+    navigation: horizontal
+    theme: AnnArbor
+    colortheme: lily
+    toc: true
+    titlegraphic: "assets/quarto.png"
+    logo: "assets/quarto.png"
+---
+
+# In the morning
+
+## Getting up
+
+![](https://quarto.org/quarto.png){fig-align="center"}
+
+-   Turn off alarm
+-   Get out of bed
+
+::: incremental
+-   Eat spaghetti
+-   Drink wine
+:::
+
+## Breakfast
+
+-   Eat eggs
+-   Drink coffee
+
+::: columns
+::: {.column width="40%"}
+contents...
+:::
+
+::: {.column width="60%"}
+contents...
+:::
+:::
+
+::: {.columns .onlytextwidth align="top"}
+::: {.column width="40%" align="center"}
+contents...
+:::
+
+::: {.column width="60%"}
+contents...
+:::
+:::
+
+# In the evening
+
+## Dinner
+
+-   Eat spaghetti
+-   Drink wine
+
+## Going to sleep
+
+-   Get in bed
+-   Count sheep
